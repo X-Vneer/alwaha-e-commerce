@@ -9,7 +9,7 @@ import { getServerSession } from '@/utils/get-server-session'
 
 import { logoutAction } from './logout-action'
 
-export const BASE_RUL = 'https://waha.droos.live/api'
+export const BASE_RUL = 'https://api.alzainfashion.net'
 // Create axios instance with default config
 export const apiClient: AxiosInstance = axios.create({
   baseURL: BASE_RUL,
