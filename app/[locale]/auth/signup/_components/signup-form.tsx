@@ -34,7 +34,7 @@ const SignupForm = () => {
   const t = useTranslations('auth.signup')
   const [callbackUrl] = useQueryState(
     'callbackUrl',
-    parseAsString.withDefault(encodeURIComponent('profile/size'))
+    parseAsString.withDefault('/profile/size')
   )
   const router = useRouter()
 
